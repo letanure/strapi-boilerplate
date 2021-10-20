@@ -31,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-about"
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.sectiontech"
     }
   }
 }
