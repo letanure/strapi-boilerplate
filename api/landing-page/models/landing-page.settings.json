@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage"
+    "name": "landingPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,6 +21,11 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
     }
   }
 }
