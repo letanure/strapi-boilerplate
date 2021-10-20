@@ -51,6 +51,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-agenda"
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box",
+      "required": true
     }
   }
 }
