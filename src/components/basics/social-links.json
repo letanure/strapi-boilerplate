@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_basics_social_links",
+  "info": {
+    "displayName": "socialLinks",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Facebook",
+        "Instagram"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
