@@ -37,6 +37,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-list"
+    },
+    "sectionConcepts": {
+      "displayName": "sectionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
     }
   }
 }
