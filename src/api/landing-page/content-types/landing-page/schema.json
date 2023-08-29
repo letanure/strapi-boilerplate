@@ -25,6 +25,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "sectionAbout": {
+      "displayName": "sectionAbout",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
     }
   }
 }
