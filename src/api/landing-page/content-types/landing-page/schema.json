@@ -49,6 +49,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-modules"
+    },
+    "sectionAboutUs": {
+      "displayName": "sectionAboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us"
     }
   }
 }
