@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "displayName": "sectionModules",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "displayName": "ListComplex",
+      "type": "component",
+      "repeatable": true,
+      "component": "basics.list-complex"
+    }
+  }
+}
