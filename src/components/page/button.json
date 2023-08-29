@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "CTA",
+      "maxLength": 30
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
