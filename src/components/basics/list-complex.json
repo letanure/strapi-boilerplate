@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_basics_list_complexes",
+  "info": {
+    "displayName": "ListComplex",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
