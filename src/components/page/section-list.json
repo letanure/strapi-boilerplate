@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_lists",
+  "info": {
+    "displayName": "sectionList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list"
+    }
+  }
+}
