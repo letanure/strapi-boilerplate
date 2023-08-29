@@ -12,7 +12,7 @@
       "displayName": "list",
       "type": "component",
       "repeatable": true,
-      "component": "page.list"
+      "component": "basics.list"
     }
   }
 }
