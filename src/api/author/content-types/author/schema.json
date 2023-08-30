@@ -15,7 +15,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -25,7 +25,8 @@
       "required": true
     },
     "role": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "customField",

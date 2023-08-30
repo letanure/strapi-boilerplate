@@ -20,7 +20,7 @@
         "images"
       ]
     },
-    "Header": {
+    "header": {
       "displayName": "header",
       "type": "component",
       "repeatable": false,
