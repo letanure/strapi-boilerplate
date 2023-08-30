@@ -28,10 +28,13 @@
       "type": "string"
     },
     "description": {
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     },
-    "SocialLinks": {
-      "displayName": "socialLinks",
+    "socialLinks": {
       "type": "component",
       "repeatable": true,
       "component": "basics.social-links"
