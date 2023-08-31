@@ -7,11 +7,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "authors": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::author.author"
     }
   }
 }
