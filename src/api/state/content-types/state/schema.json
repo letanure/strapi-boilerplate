@@ -4,7 +4,8 @@
   "info": {
     "singularName": "state",
     "pluralName": "states",
-    "displayName": "state"
+    "displayName": "state",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -24,10 +25,11 @@
       "type": "string",
       "required": true
     },
-    "country": {
+    "cities": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::country.country"
+      "relation": "oneToMany",
+      "target": "api::city.city",
+      "mappedBy": "state"
     }
   }
 }
