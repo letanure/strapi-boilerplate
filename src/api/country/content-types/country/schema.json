@@ -4,7 +4,8 @@
   "info": {
     "singularName": "country",
     "pluralName": "countries",
-    "displayName": "country"
+    "displayName": "country",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,28 +25,16 @@
       "type": "string",
       "required": true
     },
-    "codeAlpha2": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
-      "type": "string",
+      "type": "uid",
       "required": true,
       "maxLength": 2,
-      "minLength": 2,
-      "unique": false
-    },
-    "codeNumeric": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "required": true,
-      "maxLength": 3,
-      "minLength": 3
+      "minLength": 2
     }
   }
 }
