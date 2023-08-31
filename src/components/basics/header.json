@@ -15,12 +15,6 @@
       "type": "text",
       "required": true
     },
-    "button": {
-      "displayName": "button",
-      "type": "component",
-      "repeatable": false,
-      "component": "basics.button"
-    },
     "image": {
       "type": "media",
       "multiple": false,
