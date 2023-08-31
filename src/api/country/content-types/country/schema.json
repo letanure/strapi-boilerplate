@@ -35,6 +35,11 @@
       "required": true,
       "maxLength": 2,
       "minLength": 2
+    },
+    "states": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::state.state"
     }
   }
 }
