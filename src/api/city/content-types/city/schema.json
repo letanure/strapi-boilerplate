@@ -28,8 +28,9 @@
     },
     "state": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::state.state"
+      "relation": "manyToOne",
+      "target": "api::state.state",
+      "inversedBy": "cities"
     }
   }
 }
