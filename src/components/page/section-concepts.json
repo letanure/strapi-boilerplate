@@ -10,11 +10,6 @@
     "title": {
       "type": "string",
       "required": true
-    },
-    "concepts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "basics.list"
     }
   }
 }
