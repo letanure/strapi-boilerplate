@@ -23,6 +23,13 @@ export default {
         danger700: "#b72b1a",
       },
     },
+    translations: {
+      en: {
+        "Auth.form.welcome.title": "Welcome",
+        "Auth.form.welcome.subtitle": "Log in to your account",
+        "app.components.LeftMenu.navbrand.title": "Boilerplate",
+      },
+    },
     // Disable video tutorials
     tutorials: false,
     // Disable notifications about new Strapi releases
