@@ -1,5 +1,17 @@
+import Logo from "./extensions/logo.svg";
+import Favicon from "./extensions/favicon-32x32.png";
+
 export default {
   config: {
+    auth: {
+      logo: Logo,
+    },
+    head: {
+      favicon: Favicon,
+    },
+    menu: {
+      logo: Logo,
+    },
     // Override or extend the theme
     theme: {
       colors: {
