@@ -2288,15 +2288,15 @@
     nexus "1.3.0"
     pluralize "^8.0.0"
 
-"@strapi/plugin-i18n@4.13.3":
-  version "4.13.3"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.13.3.tgz#5501d96cdc768a6b30cc007dcb9d0f858821eddb"
-  integrity sha512-3gSYYxHkQ4YFti6vbOJPLWDKfOtdbYS6mnwjrIM8rmRMw0hxzYZV8KmChZ2FkpaCUlyWlFS+IMlsTxwXdrF6NQ==
+"@strapi/plugin-i18n@4.13.4":
+  version "4.13.4"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.13.4.tgz#d59168fd6d2366ae414ad63d3ed9d55ba0b4b50b"
+  integrity sha512-uSCCcukLwygpvzTPABVf6+5omSjjc3UyzZpxjaFChbUcvVAgs7Qz/E590P3RfU2RwYEQGHm7sQ+tO7aNx7oc/g==
   dependencies:
     "@strapi/design-system" "1.9.0"
-    "@strapi/helper-plugin" "4.13.3"
+    "@strapi/helper-plugin" "4.13.4"
     "@strapi/icons" "1.9.0"
-    "@strapi/utils" "4.13.3"
+    "@strapi/utils" "4.13.4"
     formik "2.4.0"
     immer "9.0.19"
     lodash "4.17.21"
