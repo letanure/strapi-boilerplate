@@ -2158,23 +2158,6 @@
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
-"@strapi/helper-plugin@4.13.3":
-  version "4.13.3"
-  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.13.3.tgz#2a34c468b6c305e0aa3a01d19bc043c0dd4123b1"
-  integrity sha512-kKi9nITwYo2SRsQhJ72UDgDWgQeHH1T4h8MjwuAT/5rCnYdXNTxjw147jqHOrFjmnd3xyLyDidTGER7dXi30DQ==
-  dependencies:
-    axios "1.5.0"
-    date-fns "2.30.0"
-    formik "2.4.0"
-    immer "9.0.19"
-    lodash "4.17.21"
-    prop-types "^15.8.1"
-    qs "6.11.1"
-    react-helmet "^6.1.0"
-    react-intl "6.4.1"
-    react-query "3.39.3"
-    react-select "5.7.0"
-
 "@strapi/helper-plugin@4.13.4":
   version "4.13.4"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.13.4.tgz#0d6475f01891eabc8f8367aeb21a11efdad3b4bf"
@@ -2485,18 +2468,6 @@
     "@radix-ui/react-visually-hidden" "^1.0.3"
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.6"
-
-"@strapi/utils@4.13.3":
-  version "4.13.3"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.13.3.tgz#847fc6a463c720154de942f555c049923147b9e6"
-  integrity sha512-+O8JbQ7GOKAI9BJQaZogkx2vlIkgG3qbROG/nWLDxbwSMfyYyHmXYODgYft2Q0MeruBYqAiKJz6Pu9GIGM+reg==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.30.0"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    p-map "4.0.0"
-    yup "0.32.9"
 
 "@strapi/utils@4.13.4":
   version "4.13.4"
