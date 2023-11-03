@@ -20,7 +20,7 @@
     "patch-package": "^8.0.0",
     "pg": "8.11.3",
     "postinstall-postinstall": "^2.1.0",
-    "strapi-plugin-entity-relationship-chart": "^4.1.0"
+    "strapi-plugin-entity-relationship-chart": "^4.14.6"
   },
   "author": {
     "name": "A Strapi developer"
